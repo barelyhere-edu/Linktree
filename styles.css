@@ -1,7 +1,23 @@
 body {
-  background-color: slateblue;
-  font-family: "Trebuchet MS";
-  color: white;
+  margin: 5px;
+  padding: 5px;
+  background-color: #44444E;
+}
+
+div {
+  margin: 20px;
+  padding: 10px;
+  
+  background-color: #715A5A;
+}
+
+main {
+  margin: 5%;
+  padding: 15px;
+
+  background-color: #D3DAD9;
+  
+  font-family: monospace;
   text-align: center;
 }
 
@@ -9,17 +25,17 @@ img {
   border-radius: 75px;
 }
 
-h2 {
-  font-size: 18px;
-}
-
 a {
-  background-color: white;
-  font-size: 20px;
-  border-radius: 10px;
-  padding: 10px;
+  margin: 5%;
+  padding: 5%;
+
+  background-color: #D3DAD9;
+
   display: block;
+
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+
   text-align: center;
-  margin: 10px;
-  color: slateblue;
 }
