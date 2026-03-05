@@ -1,24 +1,30 @@
 body {
   margin: 5px;
   padding: 5px;
-  background-color: #44444E;
+  background-color: #65647C;
 }
 
-div {
+#main-div {
   margin: 20px;
   padding: 10px;
+  border-radius: 15px;
   
-  background-color: #715A5A;
+  background-color: #8B7E74;
 }
 
 main {
   margin: 5%;
   padding: 15px;
+  border-radius: 15px;
 
-  background-color: #D3DAD9;
+  background-color: #DBDBDB;
   
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 img {
@@ -28,14 +34,18 @@ img {
 a {
   margin: 5%;
   padding: 5%;
+  border-radius: 15px;
 
-  background-color: #D3DAD9;
+  background-color: #DBDBDB;
 
   display: block;
 
   color: black;
   font-size: 20px;
   text-decoration: none;
-
   text-align: center;
+}
+
+a:hover {
+  background-color: #C7BCA1;
 }
